@@ -56,10 +56,9 @@ SLACK_WEBHOOK = 'https://hooks.slack.com/services/TMG5MAXLG/B01C26N8U4E/PlVigT9j
 STRIPE_SECRET_KEY = 'sk_live_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 ## Stripe Publishable Key
-STRIPE_PUBLISHABLE_KEY = 'pk_live_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
+STRIPE_PUBLISHABLE_KEY = $STRIPE_PUBLISHABLE_KEY
 ## Stripe Restricted Key
-STRIPE_RESTRICTED_KEY = 'rk_live_z59MoCJoFc114PpJlP1OnB1O'
+STRIPE_RESTRICTED_KEY = $STRIPE_RESTRICTED_KEY
 
 # Facebook
 ## Access Token
@@ -95,7 +94,7 @@ MAILGUN_API_KEY = 'key-LPxoYCANGEFkAMHBur4jTjbZ69ngpdbI'
 
 # AWS
 ## AWS Access Key ID
-VAR_1 = 'AKIAIWSXFHRM7F6Z3NWQ'
+VAR_1 = $AWS_Access_Key_ID
 
 ## AWS Secret Access Key
 VAR_2 = 'UpUbsQANRHLf2uuQ7QOlNXPbbtV5fmseW/GgT5D/'
