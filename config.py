@@ -53,7 +53,7 @@ SLACK_WEBHOOK = 'https://hooks.slack.com/services/TMG5MAXLG/B01C26N8U4E/PlVigT9j
 
 # Stripe
 ## Stripe Secret Key
-STRIPE_SECRET_KEY = 'sk_live_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+STRIPE_SECRET_KEY = $STRIPE_SECRET_KEY
 
 ## Stripe Publishable Key
 STRIPE_PUBLISHABLE_KEY = $STRIPE_PUBLISHABLE_KEY
@@ -144,8 +144,7 @@ VAR_18 = 'https://hooks.slack.com/services/TMG5MAXLG/B01C26N8U4E/PlVigT9jRstQd0y
 
 # Stripe
 ## Stripe Secret Key
-VAR_19 = 'sk_live_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
+VAR_19 = $STRIPE_SECRET_KEY
 ## Stripe Publishable Key
 VAR_20 = 'pk_live_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
